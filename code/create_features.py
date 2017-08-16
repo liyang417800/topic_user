@@ -1,6 +1,6 @@
 #coding=utf-8
 '''
-构造普惠端用户指标
+构造普惠端用户是否m3+特征
 @Author:李阳
 '''
 
@@ -107,14 +107,6 @@ flow = train_user.append(test_user).copy()
 pickle.dump(flow, open('../myfeatures/features.pkl', 'wb'))
 print('done!')
 
-
-
-
-
-
-
-
-# train_info = train_info.loc[~train_info.CUST_NO.isnull()]
 
 
 
