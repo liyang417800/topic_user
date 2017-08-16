@@ -1,8 +1,7 @@
 #coding=utf-8
 '''
 构造普惠端用户指标
-@Author:
-@E-mail：dlutfeipeng@gmail.com
+@Author:李阳
 '''
 
 import pandas as pd
